@@ -2,6 +2,7 @@
 Una serie di utility per aumentare il workflow lavorativo su windows
 
 Tutti questi file .bat sono indirizzati all'utilizzo come scorciatoia da "Esegui" 
+
 [accessibile con la scorciatoria da tastiera "WIN + R"]
 
 # COM.BAT
