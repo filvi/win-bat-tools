@@ -45,3 +45,30 @@ Permette di cercare fino ad un massimo di 9 query direttamente su google
 
 Accede a web.whatsapp.com/
      Utilizzo: WIN+R "web"
+     
+ ## ENCODE_VIDEO.BAT / ENCODE_WEBM  --> 
+ REQUISITI:
+     1.  HanBrakeCLI:https://handbrake.fr/docs/en/latest/cli/cli-options.html
+     2.  FFMPEG: https://www.ffmpeg.org/download.html
+     3.  Inserire questi nel %path% di windows {
+      3.1 - Aprire il "File prompt" in **Modalità Amministratore**
+      3.2 - Copiare il percorso da inserire (F4 oppure CTRL+L) --> Copia
+      3.3 - Inserire **setx /M PATH "%PATH%;<**percorso_copiato_prima>"**
+      3.4 - Prestare attenzione che tra **"%PATH%;** e il resto ci sia **;** e alle **virgolette** prima e dopo %path% e quanto copiato
+          N.B - se il percorso copiato si presenta con le virgolette tipo "C:\users\programming is awesome" cancella le virgolette
+                es. Copio "C:\users\programming is awesome" --> **setx /M PATH "%PATH%;C:\users\programming is awesome"**
+     }
+
+ 
+ Permette di convertire qualsiasi formato di video in mp4 dalla command line 
+ Switches: 1 obbligatoria 2 facoltative
+ 
+ 1.* Nome input
+ 2.  Nome output. Default "nome di input.mp4"
+ 3.  Dimensione in px (larghezza). Default 1920
+ 
+ Utilizzo:
+ encode_video("file_da_convertire.avi", "nome_finale", 1280) --> Converte il "file_da_convertire.avi" in "nome_finale.mp4" in 1280x720
+ encode_video("file_da_convertire.avi") -->  converte il file "file_da_convertire.avi" in "file_da_convertire.avi.mp4" in 1920x1080
+ 
+ Per **encode_webm** --> l'unica differenza è che il formato di output è ".webm" stesse impostazioni di **encode_video**
