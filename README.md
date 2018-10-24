@@ -47,7 +47,7 @@ Accede a web.whatsapp.com/
      Utilizzo: WIN+R "web"
      
  ## ENCODE_VIDEO.BAT / ENCODE_WEBM  --> 
- REQUISITI:\n
+ REQUISITI:<br>
      1.  HanBrakeCLI:https://handbrake.fr/docs/en/latest/cli/cli-options.html \n
      2.  FFMPEG: https://www.ffmpeg.org/download.html
      3.  Inserire questi nel %path% di windows {
