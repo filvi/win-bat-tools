@@ -72,3 +72,10 @@ Accede a web.whatsapp.com/<br>
  encode_video("file_da_convertire.avi") -->  converte il file "file_da_convertire.avi" in "file_da_convertire.avi.mp4" in 1920x1080<br>
  
  Per **encode_webm** --> l'unica differenza è che il formato di output è ".webm" stesse impostazioni di **encode_video**
+
+
+
+## ICON.BAT
+Cerca una icona nel sito https://fontawesome.com
+<br><br>Esempio utilizzo<br>
+icon pen <-- mi cerca "pen" su fontawesome
