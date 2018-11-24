@@ -63,9 +63,9 @@ Accede a web.whatsapp.com/<br>
  Permette di convertire qualsiasi formato di video in mp4 dalla command line <br>
  Switches: 1 obbligatoria 2 facoltative
  
- 1.* Nome input<br>
- 2.  Nome output. Default "nome di input.mp4"<br>
- 3.  Dimensione in px (larghezza). Default 1920
+ 1.* Nome input:<br>
+ 2.  Nome output: Default "nome di input.mp4"<br>
+ 3.  Preset: Default "HQ 1080p30 Surround"  -  Valori ammessi 1080 720 480
  
  Utilizzo:<br>
  encode_video("file_da_convertire.avi", "nome_finale", 1280) --> Converte il "file_da_convertire.avi" in "nome_finale.mp4" in 1280x720<br>
