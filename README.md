@@ -46,7 +46,7 @@ Permette di cercare fino ad un massimo di 9 query direttamente su google<br>
 Accede a web.whatsapp.com/<br>
      Utilizzo: WIN+R "web"
      
- ## ENCODE_VIDEO.BAT / ENCODE_WEBM  --> 
+ ## ENCODE_VIDEO.BAT / ENCODE_265.BAT / ENCODE_WEBM  --> 
  REQUISITI:<br>
      1.  HanBrakeCLI:https://handbrake.fr/docs/en/latest/cli/cli-options.html <br>
      2.  FFMPEG: https://www.ffmpeg.org/download.html<br>
